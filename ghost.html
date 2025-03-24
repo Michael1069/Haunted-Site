@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ghostie</title>
+    </head>
+    <style>
+        body{
+            background-color: #48537F;
+        }
+        .ghost{
+            padding-left: 200px;
+            width: 40%;
+            height: 635px;
+            border-radius: 300%;
+            
+        }
+        .patch{
+            background-color: aquamarine;
+            width: 40%;
+        
+        }
+        .text{
+         
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            margin-left: 750px;
+            margin-top: -350px;
+            font-size: 40px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+        .ghost:hover + .text {
+            display: block;
+            color:red;
+        }
+    </style>
+    <body>
+        <div class="ghost">
+            <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.80/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/fYV3HdnAqnlZ1RUm/scene.splinecode"></spline-viewer>
+            
+        </div>
+        <div class="patch"></div>
+        <div class="text">
+            BOOOOOO!!!!
+        </div>
+    </body>
+
+
+
+
+</html>
